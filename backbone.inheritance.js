@@ -1,7 +1,7 @@
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(['underscore', 'backbone', 'exports'], function(_, Backbone, exports) {
-            factory(root, _, Backbone);
+            root.Backbone = factory(root, _, Backbone);
         });
     } else if (typeof exports !== 'undefined') {
         var _ = require('underscore'),
@@ -9,9 +9,8 @@
 
         factory(root, _, Backbone);
     } else {
-        factory(root, root._, root.Backbone);
+        root.Backbone = factory(root, root._, root.Backbone);
     }
-
 }(this, function(root, _, Backbone) {
     var config = Backbone.inheritance = {
         viewOptions: ['events']
@@ -41,4 +40,6 @@
             }
         });
     })(Backbone.View);
+
+    return Backbone;
 }));

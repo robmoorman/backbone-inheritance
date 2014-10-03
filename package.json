@@ -3,7 +3,7 @@
     "bugs": {
         "url": "https://github.com/robmoorman/marionette-inheritance/issues"
     },
-    "description": "Backbone Marionette extended View inheritance",
+    "description": "Backbone extended View inheritance",
     "devDependencies": {
         "bower": "^1.3.12",
         "grunt": "^0.4.5",
@@ -29,7 +29,7 @@
         "collectionEvents"
     ],
     "license": "MIT",
-    "name": "marionette-inheritance",
+    "name": "backbone-inheritance",
     "repository": {
         "type": "git",
         "url": "https://github.com/robmoorman/marionette-inheritance.git"
