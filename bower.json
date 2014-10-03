@@ -1,0 +1,20 @@
+{
+    "authors": [
+        "R. Moorman <rob@moori.nl>"
+    ],
+    "devDependencies": {
+        "backbone": "~1.1.2",
+        "jquery": "~2.1.1",
+        "underscore": "~1.7.0"
+    },
+    "homepage": "https://github.com/robmoorman/marionette-inheritance",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test"
+    ],
+    "license": "MIT",
+    "name": "marionette-inheritance",
+    "version": "0.1.0"
+}

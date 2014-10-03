@@ -1,0 +1,44 @@
+{
+    "author": "R. Moorman <rob@moori.nl>",
+    "bugs": {
+        "url": "https://github.com/robmoorman/marionette-inheritance/issues"
+    },
+    "dependencies": {
+        "grunt": "^0.4.5"
+    },
+    "description": "Backbone Marionette extended View inheritance",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-uglify": "^0.6.0",
+        "grunt-karma": "^0.9.0",
+        "karma": "^0.12.24",
+        "karma-coverage": "^0.2.6",
+        "karma-jasmine": "^0.1.5",
+        "karma-junit-reporter": "^0.2.2",
+        "karma-phantomjs-launcher": "^0.1.4"
+    },
+    "homepage": "https://github.com/robmoorman/marionette-inheritance",
+    "keywords": [
+        "backbone",
+        "marionette",
+        "extend",
+        "inheritance",
+        "ui",
+        "events",
+        "triggers",
+        "viewEvents",
+        "modelEvents",
+        "collectionEvents"
+    ],
+    "license": "MIT",
+    "name": "marionette-inheritance",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/robmoorman/marionette-inheritance.git"
+    },
+    "scripts": {
+        "postinstall": "bower install",
+        "test": "grunt karma:main"
+    },
+    "version": "0.1.0"
+}
