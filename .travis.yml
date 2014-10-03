@@ -5,4 +5,4 @@ notifications:
     email:
         - rob@moori.nl
 before_script:
-    - npm install -g bower grunt-cli
+    - npm install -g grunt-cli
