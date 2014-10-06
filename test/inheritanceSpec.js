@@ -3,9 +3,9 @@ describe('Backbone.inheritance', function() {
         expect(Backbone.inheritance).toBeDefined();
     });
 
-    describe('viewOptions', function() {
+    describe('hashes', function() {
         it('should be an array with events set as default', function() {
-            expect(Backbone.inheritance.viewOptions).toEqual(['events']);
+            expect(Backbone.inheritance.hashes).toEqual(['events']);
         });
     });
 });

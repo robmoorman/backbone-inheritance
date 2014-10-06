@@ -29,7 +29,7 @@ supported)!
 By default `events` is merged from parents. You can also specify your own
 properties (eg. for Marionette):
 
-    Backbone.inheritance.viewOptions = ['events', 'ui', 'triggers', 'modelEvents', 'collectionEvents'];
+    Backbone.inheritance.hashes = ['events', 'ui', 'triggers', 'modelEvents', 'collectionEvents'];
 
 ##### Compatibility
 

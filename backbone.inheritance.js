@@ -13,7 +13,7 @@
     }
 }(this, function(root, _, Backbone) {
     var config = Backbone.inheritance = {
-        viewOptions: ['events']
+        hashes: ['events']
     };
 
     Backbone.View = (function(View) {
