@@ -15,6 +15,7 @@
         "test"
     ],
     "license": "MIT",
+    "main": "backbone.inheritance.js",
     "name": "backbone-inheritance",
     "version": "0.1.0"
 }
