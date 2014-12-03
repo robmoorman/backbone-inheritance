@@ -38,6 +38,23 @@ describe('Backbone.View', function() {
         expect(view.events['biz']).toBeDefined();
     });
 
+    it('should merge the property events over multiple parents even when one of the hashes is empty', function() {
+        var ExtendedBaseView = BaseView.extend({
+            events: {
+                'bar': 'render'
+            }
+        });
+
+        var ExtendedView = ExtendedBaseView.extend({
+            events: {}
+        });
+
+        var view = new ExtendedView();
+
+        expect(view.events['foo']).toBeDefined();
+        expect(view.events['bar']).toBeDefined();
+    });
+
     it('should override the merged property events', function() {
         var ExtendedView = BaseView.extend({
             events: {

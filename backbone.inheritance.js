@@ -26,7 +26,7 @@
                     obj = {};
 
                     while (parent) {
-                        if (parent[prop]) {
+                        if (_.isObject(parent[prop])) {
                             _.extend(obj, parent[prop]);
                         }
 
