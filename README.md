@@ -35,3 +35,9 @@ properties (eg. for Marionette):
 
 * [Backbone](http://backbonejs.org/)
 * [Marionette](http://marionettejs.com/)
+
+##### Changelog
+
+0.1.1
+
+* Fixed config.viewOptions

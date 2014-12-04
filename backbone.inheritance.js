@@ -21,7 +21,7 @@
             constructor: function(options) {
                 var parent, obj;
 
-                _.each(config, function(prop) {
+                _.each(config.viewOptions, function(prop) {
                     parent = this.constructor.__super__;
                     obj = {};
 
