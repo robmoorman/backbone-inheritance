@@ -38,6 +38,10 @@ properties (eg. for Marionette):
 
 ##### Changelog
 
+0.1.2
+
+* Added version range in bower to use Backbone 1.2.3 as well (issue 5)
+
 0.1.1
 
 * Fixed config.viewOptions
