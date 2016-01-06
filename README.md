@@ -12,13 +12,13 @@ supported)!
             'click a': 'handleLinkClick'
         }
     });
-    
+
     var ExtendedView = BaseView.extend({
         events: {
             'focus input': 'handleInputFocus'
         }
     });
-    
+
     // view.events now returns
     // {
     //     'click a': 'handleLinkClick',
@@ -37,6 +37,9 @@ properties (eg. for Marionette):
 * [Marionette](http://marionettejs.com/)
 
 ##### Changelog
+0.1.3
+
+* Moved dependencies from Bower to NPM
 
 0.1.2
 

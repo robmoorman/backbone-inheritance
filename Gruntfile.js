@@ -13,9 +13,9 @@ module.exports = function(grunt) {
                         dir: 'coverage'
                     },
                     files: [
-                        'bower_components/jquery/dist/jquery.js',
-                        'bower_components/underscore/underscore.js',
-                        'bower_components/backbone/backbone.js',
+                        'node_modules/jquery/dist/jquery.js',
+                        'node_modules/underscore/underscore.js',
+                        'node_modules/backbone/backbone.js',
                         'backbone.inheritance.js',
                         'test/**/*Spec.js'
                     ],
