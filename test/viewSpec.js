@@ -53,7 +53,7 @@ describe('Backbone.View', function() {
     });
 
     it('should also merge user defined properties', function() {
-        Backbone.inheritance.viewOptions = ['ui'];
+        Backbone.inheritance.hashes = ['ui'];
 
         var ExtendedBaseView = BaseView.extend({
             ui: {
